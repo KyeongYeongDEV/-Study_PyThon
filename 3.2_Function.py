@@ -68,3 +68,20 @@ print(a)
 #global을 사용하면 함수 밖의 a변수를 직접 사용하겠다는 뜻이다
 #하지만 사용하지 않는 것이 좋다
 #왜냐하면 함수는 독립적으로 존재하는 것이 좋기 때문이다. 
+
+#lambda
+#lambda는 함수를 생성할 때 사용하는 에약어로 def와 동일하다
+#보통 함수를 한 줄로 간결하게 만들 떄 사용
+add = lambda a, b: a+b #add는 두 개의 인수를 받아 서로 더해주는 lambda함수이다
+result = add(3, 4)
+print(result)
+7
+
+def add(a, b):
+    return a+b
+
+result = add(3, 4)
+print(result)
+7
+#함수가 하는 일은 위의 것과 완전히 동일하다
+
