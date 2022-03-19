@@ -20,7 +20,7 @@ def say_myself(name, old, man=True):
 #man이 Ture이기 때무에 남자입니다가 출력이된다
 say_myself("박응선", 27, False)
 #False로 바뀌면서 여자입니다가 출력이 된다.
-
+'''
 def say_myself(name, man=True, old): 
     print("나의 이름은 %s 입니다." % name) 
     print("나이는 %d살입니다." % old) 
@@ -30,7 +30,7 @@ def say_myself(name, man=True, old):
         print("여자입니다.")
 #이것을 실행시키면 오류가 발생한다
 #초기값을 설정을 해주려면 중간이 아닌 젤 마지막에 해야 한다.
-
+'''
 
 #함수 안에서 선언ㅇ한 변수의 호력 범위
 # vartest.py
